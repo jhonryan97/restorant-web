@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Jost", static;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ini untuk navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: green;
+    width: 100%;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.navigation ul li{
+    display: inline;
+    margin-right: 100px;
+}
+
+.navbar .logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo h4{
+    padding: 0px 10px;
+    width: 50px;
+}
+
+.navbar .search{
+    padding: 10px 20px;
+    outline: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* ini untuk baner */
+
+.baner{
+    width: 100%;
+    height: 100%;
+}
+
+.food-baner{
+    display: flex;
+    background-color: rgb(37, 130, 37);
+    padding: 150px 50px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+.food-baner .text h1{
+    font-size: 50px;
+}
+
+.food-baner .text h3{
+    font-size: 40px;
+}
+
+.food-baner .text p{
+    width: 500px;
+}
+
+.images-baner{
+    padding: 0 300px;
+}
+
+.food-baner button{
+    background-color: #cbab45;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+
+/* INI UNTUK ABOUT */
+
+.about{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(37, 130, 37);
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.food-card{
+    display: flex;
+    background-color: #c39f2a;
+    border-radius: 200px 0 0 200px;
+    margin: 20px 100px;
+    padding: 0px;
+    box-shadow: 0 40px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.images.food{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.food-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: green;
+    width: 50%;
+}
+
+.food-content .title button{
+    margin-top: 50px;
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: green;
+    border: none;
+}
+
+/* ini untuk featured */
+
+.featured{
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-card{
+    width: 350px;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+}
+
+.featured-card .rate a{
+    font-size: 40px;
+    color: gold;
+    padding: 0 30px;
+}
+
+.featured-card .card-teks h3{
+    margin-top: 20px;
+}
+
+/* ini untuk chef */
+
+.banner3{
+    width: 100%;
+    background-color: rgb(37, 130, 37);
+}
+
+.banner3 .title3{
+    padding: 20px 0;
+    text-align: center;  
+    color: white; 
+}
+
+.chef1 img{
+    width: 300px;
+    border-radius: 50px;
+}
+
+.chef1:hover img{
+    transform: scale(1.1);
+}
+
+.chef{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.chef1 .teks2{
+    text-align: center;
+    color: white;
+}
+
+.footer{
+    background-color: rgb(37, 130, 37);
+    width: 100%;
+    text-align: center;
+    padding: 80px 30px;
+    color: white;
+}
+
+/* INI UNTUK MENU */
+
+.menu{
+    background-color: rgb(37, 130, 37);
+    width: 100%;
+    padding-top: 100px;
+    
+}
+
+.title-menu{
+    background-color: #c39f2a;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.menu1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 50px 50px;
+    margin: 0 100px;
+    width: 80%;
+    column-gap: 50px;
+    color: white;
+}
+
+.menu1 img{
+    width: 200px;
+}
+
+.teks-menu{
+    padding: 40px 0px;
+}
+
+
+.menu2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+    margin: 0 100px;
+    width: 80%;
+    column-gap: 50px;
+    color: white;
+}
+
+.menu2 img{
+    width: 200px;
+}
+
+.menu3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+    margin: 0 100px;
+    width: 80%;
+    column-gap: 50px;
+    color: white;
+}
+
+.menu3 img{
+    width: 200px;
+}
+
+/* INI UNTUK SUBSCRIBE */
+
+.subscribe{
+    background-color: white;
+    color: rgb(37, 130, 37);
+    width: 100%;
+    padding: 50px 100px;
+    font-size: 20px;
+}
+
+.subscribe .title{
+    text-align: center;
+}
+
+.subscribe .title p{
+    padding: 30px 100px;
+}
+
+.subscribe .kolom-input{
+    text-align: center;
+}
+
+.subscribe input{
+    width: 500px;
+    padding: 10px;
+    outline: black;
+    border-radius: 20px;
+}
+
+.button-subscribe{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-subscribe button{
+    background-color: green;
+    color: white;
+    width: 500px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+
+/* ini untuk footer menu */
+
+footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: green;
+    color: white;
+    padding: 100px 0px;
+}
+
+footer ul li{
+    list-style: none;
+    margin-top: 15px;
+}
+
+.footer-menu p{
+    width: 400px;
+}
+
+.footer-menu .logo-footer{
+    margin-top: 30px;
+}
+
+
+/* ini delivery */
+
+.delivery{
+    background-color: #c39f2a;
+    padding-top: 100px;
+}
+
+.delivery-card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 100px 0px;
+}
+
+.delivery-card2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 100px 0px;
+}
+
+.delivery-card .gambar1{
+    display: flex;
+    align-items: center;
+}
+
+/* burger menu */
+
+.burgermenu .bars{
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 3px;
+}
+
+/* sidebar */
+
+.sidebar{
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: -200px;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    transition: .5s;
+}
+
+.sidebar ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.sidebar a{
+    color: white;
+}
+
+.sidebar.active{
+    left: 0;
+    transition: .5s;
+}
+
+
+@media (min-width: 980px) {
+    .sidebar, .burgermenu{
+        display: none;
+    }
+}
+
+@media (min-width: 780px) {
+    .sidebar, .burgermenu{
+        display: none;
+    }
+}
+
+
+/* media query */
+
+@media (max-width:480px) {
+    .navigation, .search{
+        display: none;
+    }
+
+    .food-baner{
+        width: 100%;
+    }
+
+    .food-baner .text{
+        width: 350px;
+    }
+
+    .food-baner h3, .food-baner h1{
+        font-size: 15px;
+    }
+
+    .food-baner p{
+        width: 300px;
+    }
+
+    .featured{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .chef{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .food-card{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+    }
+
+    .food-content{
+        color: white;
+        width: 350px !important;
+    }
+
+    .food-content .title{
+        width: 350px;
+    }
+
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu1, .menu2, .menu3{
+        flex-wrap: wrap;
+    } 
+
+    .subscribe{
+        padding: 50px 30px;
+    }
+
+    .subscribe .title p{
+        padding: 30px 10px;
+    }
+
+    .subscribe input, .button-subscribe button{
+        width: 350px;
+    }
+
+    footer{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .footer-menu{
+        width: 100%;
+    }
+
+    .food-baner{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .food-baner .text p{
+        width: 300px;
+
+    }
+
